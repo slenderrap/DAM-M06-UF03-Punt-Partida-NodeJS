@@ -25,7 +25,7 @@ Aquest projecte és un exemple que demostra com utilitzar Node.js per processar 
 1. Clona el repositori:
 ```bash
 git clone <url-del-repositori>
-cd AMS2-MP06-UF3
+cd DAM-M06-UF03-Punt-Partida-NodeJS
 ```
 
 2. Inicia els contenidors Docker:
