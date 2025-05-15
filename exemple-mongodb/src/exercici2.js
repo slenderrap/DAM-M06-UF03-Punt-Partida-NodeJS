@@ -29,7 +29,7 @@ async function main() {
     const highViewQuestions = await collection.find({
       'question.ViewCount': { $gt: average }
     }).toArray();
-
+    console.log("mitjana: ",average)
     console.log(`Nombre de preguntes amb ViewCount > mitjana: ${highViewQuestions.length}`);
 
     // Generar PDF para la primera consulta
